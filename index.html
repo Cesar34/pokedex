@@ -1,0 +1,46 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="P_estilo.css">
+    <title>Contenedores Pokedex</title>
+</head>
+<body onload="inicio(0)">
+<div class="Pok-container">
+  
+  <div class="encabezado" >
+    <h1>Pokemon</h1>
+  </div>
+
+  <div class="section">
+    
+    <di class="filtro">
+      Filtrar por tipo:
+      <select name="filtros"  id="fil_tipo" onchange="myFunction()">
+      </select>
+    </di>
+    
+    <br>
+
+    <div class="cuerpo">
+      <div class="inf_Pok" id="Informacion">
+      </div>
+      
+      <div class="flex-container" id="tipos">
+      </div>
+    </div>
+
+  </div>
+
+  <div class="pie">
+    <p>Examen Practico 2 parcial</p>
+    <p>Cesar Medellin</p>
+  </div>
+		
+</div>
+    
+    <script src="app.js"></script>
+
+</body>
+</html>

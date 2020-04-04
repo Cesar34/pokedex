@@ -1,0 +1,158 @@
+﻿
+.Pok-container{
+    position: relative;
+    background-color: red;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: space-between;
+    height: auto;
+}
+
+
+.Pok-container div{
+    position: relative;
+    font-size: 2em;
+    padding: 0.5em;
+    margin: 0.25em;
+    height: auto;
+
+}
+
+.encabezado{
+    position: relative;
+    left: 40%;
+}
+
+.filtro{
+    position: absolute;
+    left: 43%;
+    font-size: 30px;
+    z-index: 1;
+}
+
+.cuerpo{
+    position: relative;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 400px;
+    align-content: space-between;
+}
+
+
+.cuerpo div{
+    background-color: white;
+    font-size: 2em;
+    padding: 0.5em;
+    margin: 0.15em;
+
+}
+
+.inf_Pok{
+    position: relative;
+    background-color:white;
+    float: left;
+    width: 20%;
+    height: auto;
+
+}
+
+.cont_inf{
+    position: relative;
+    background-color: gray;
+    height: auto;
+
+}
+
+.inf_Pok img{
+    position: relative;
+    width: .8em;
+    height: 1.1em;
+    right: 150px;
+    top: -400px;
+}
+
+.inf_Pok p{
+    position: relative;
+    top: -100px;
+    text-align: center;
+}
+
+.pokemon h1{
+    position: relative;
+    text-align: center;
+    font-size: .3em;
+    top: 80px;
+}
+
+.inf_Pok button{
+    position: relative;
+    top: -500px;
+    left: 50px;
+}
+
+
+
+
+.Elimina{
+    position: relative;
+    font-size: 40px;
+    text-align: left;
+    left: 100%;
+    top: -80px;
+}
+
+.section{
+    background-color: white;
+    width: 100%;
+}
+
+.flex-container{
+    position: relative;
+    background-color: rgb(99, 31, 31);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: auto;
+    width: 51%;
+    align-content: space-between;
+    float: right;
+    top: -100px;
+}
+
+.flex-container div{
+    background-color:white;
+    font-size: .5em;
+    padding: 0.2em;
+    margin: 0.30em;
+
+}
+
+.pokemon{
+    position: relative;
+    width: 10%;
+    height: auto;
+    top: -100px;
+}
+
+.pokemon p{
+    position: relative;
+    text-align: center;
+    font-size: .4em;
+    top: -10px;
+}
+
+.imgPok{
+    position: relative;
+    width: 1.5em;
+    height: 1.5em;
+    left: 5%;
+}
+
+.pie{
+    position: relative;
+    left: 38%;
+    text-align: center;
+}
